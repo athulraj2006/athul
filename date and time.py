@@ -1,0 +1,20 @@
+#created by athul raj
+#date:15-8-24
+from datetime import datetime
+current_time=datetime.now()
+print(current_time)
+format1=current_time.strftime("%Y-%m-%d")
+print (format1)
+format2=current_time.strftime("%m/%d/%y")
+print (format2)
+format3=current_time.strftime("%A,%m %d,%Y")
+print (format3)
+format4=current_time.strftime("%A,%m %d,%Y,%HH %MM %SS %P")
+print(format4)
+format5=current_time.strftime("%a-%b-%d %HH %MM %SS %Z %Y")
+print (format5)
+print(current_time.isoformat())
+print(current_time.strftime("%d"))
+print(current_time.strftime("%I"))
+print(current_time.strftime("%m"))
+print(current_time.strftime("%Y"))
