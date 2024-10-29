@@ -1,3 +1,5 @@
+#created by athul raj
+#date:29-10-24
 limit=int(input('enter limit:'))
 for num in range(2,limit+1):
     isprime=True
