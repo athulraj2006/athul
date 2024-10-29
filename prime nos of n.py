@@ -1,3 +1,5 @@
+#created by athul raj
+#date:29-10-24
 number=int(input("enter a number:"))
 isPrime = True
 for i in range(2,number//2+1):
